@@ -1,0 +1,207 @@
+.top{
+	position: relative;
+}
+.top .top-img{
+	width: 10rem;
+}
+.top a{
+	position: absolute;
+	display: block;
+	border-radius: .16rem;
+	background:#fff;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.top .foot-boy{
+  left: 5.73rem;
+  top: 6.05rem;
+  width: 2.1rem;
+  height: .8rem;
+  transform: rotate(13deg);
+}
+.top .how-old{
+  left: 4rem;
+  top: 9.52rem;
+  width: 2.5rem;
+  height: .96rem;
+  transform: rotate(27deg);
+}
+.top .shoot-iphone6{
+  left: 2.11rem;
+  top: 12.3rem;
+  width: 3.2rem;
+  height: 1rem;
+  transform: rotate(-9deg);
+}
+.top .fog-battle{
+  left: 6.15rem;
+  top: 15.5rem;
+  width: 2.25rem;
+  height: 1.15rem;
+  transform: rotate(8deg);
+}
+.top .pencil-game{
+  left: 1.56rem;
+  top: 18.3rem;
+  width: 2.65rem;
+  height: .93rem;
+  transform: rotate(-8deg);
+}
+.top .doll-game{
+  left: 5.2rem;
+  top: 21.13rem;
+  width: 2.15rem;
+  height: .9rem;
+  transform: rotate(6deg);
+}
+.park-product{
+	/* width: 640px; */
+	width: 10rem;
+	overflow: hidden;
+	zoom: 1;
+	margin: -6px 0 0.63rem 0;
+	overflow: hidden;
+}
+.item-img{
+	width: 10rem;
+	float: left;
+}
+.product-item{
+	float: left;
+	margin:0 0 0.31rem 0.31rem;
+}
+.product-item-top{
+	display: block;
+	width: 4.53rem;
+	height: 4.33rem;
+	background: #fff;
+	text-align: center;
+}
+.product-item-top .product-img{
+	display: block;
+	width: 4.53rem;
+	height: 4.33rem;
+	margin: auto;
+}
+.product-item-bottom{
+	display: block;
+	width: 4.53rem;
+	height: .86rem;
+	line-height: .86rem;
+	background:#ec1f41;
+	color: #fff;
+}
+.product-item-bottom .ticket-step{
+	float: left;
+	width: 2.55rem;
+	height: 100%;
+	font-size: .28rem;
+	color: #fff;
+	padding-left: .13rem;
+}
+.product-item-bottom .ticket-btn{
+	float: left;
+	color: #fff;
+	width: 1.85rem;
+	height: 100%;
+	font-size: .31rem;
+	text-align: center;
+	background: url(../images/ticket-btn.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+
+
+.reward{
+	position: relative;
+	width: 10rem;
+	height: 17.75rem;
+	background: url(../images/reward.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+.reward.reward-not{
+	background: url(../images/reward-not.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+.reward .reward-return{
+	position: absolute;
+	left: .55rem;
+	top: 1.09rem;
+	font-size: .44rem;
+	color: #fff;
+}
+.reward .reward-share{
+	position: absolute;
+	left: 7.5rem;
+	top: 1.3rem;
+	display: block;
+	width: 1.73rem;
+	height: .32rem;
+	/* width: 54px;
+	height: 10px; */
+	background: url(../images/reward-share.png) 0 0 no-repeat;
+	background-size: cover;
+}
+.reward .reward-return span{
+	padding-right: 0.31rem;
+}
+.reward .reward-text{
+	position: absolute;
+	left: 0;
+	top: 11.88rem;
+	width: 100%;
+	text-align: center;
+	font-size: .56rem;
+	color: #333;
+	font-weight: bold;
+}
+.reward .reward-text .text2{
+	font-size: .45rem;
+}
+.reward .reward-text .text2 span{
+	color: #f32626;
+}
+.reward .reward-btn-share{
+	position: absolute;
+	left: 1.25rem;
+	top: 14.10rem;
+	width: 3.125rem;
+	height: 1rem;
+	border-radius: 10px;
+}
+.reward .reward-btn-again{
+	position: absolute;
+	left: 5.56rem;
+	top: 14.10rem;
+	width: 3.125rem;
+	height: 1rem;
+	border-radius: 10px;
+}
+.reward-overlay{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 10rem;
+	height: 100%;
+	background: black;
+	opacity: .5;
+}
+.reward-overlay-text{
+	position: fixed;
+	left: 0;
+	top: 2.34rem;
+	width: 10rem;
+	text-align: center;
+	font-size: .5rem;
+	color: #fff;
+}
+.reward-overlay-text .text-lead{
+	width: 1.77rem;
+	height: 3.09rem;
+	margin: 0 0 .31rem 5.3rem;
+	background: url(../images/reward-lead.png) 0 0 no-repeat;
+	background-size: cover;
+}
+.reward-overlay-text .text-title{
+	color: #fdb73f;
+}
